@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+h1{
+    background-color: brown;
+}
+    img {
+    width: 32vw;
+    height: 150px;
+    transition: 2s ease-in-out;
+}
+img:nth-child(2n):hover{
+    box-shadow: -10px 10px 10px red;
+    cursor: pointer;
+}
+img:nth-child(2n+1):hover{
+    box-shadow: -10px 10px 10px blue;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <h1>GALLARY</h1>
+    <hr>
+    <img src="images/img1.jpg" alt="">
+    <img src="images/img2.jpg" alt="">
+    <img src="images/img3.jpg" alt="">
+</body>
+</html>
